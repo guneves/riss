@@ -68,3 +68,21 @@ The forms are visual demos and do not transmit data. Before publication, connect
 ## Deployment
 
 The project has no build step and can be deployed directly to GitHub Pages, Netlify, Vercel, Cloudflare Pages, or an institutional web server.
+
+## Interactive version
+
+This version includes progressive enhancements implemented with plain CSS and JavaScript:
+
+- scroll-triggered entrance animations using `IntersectionObserver`;
+- subtle 3D parallax on the home-page hero image;
+- animated card and image hover states;
+- reading-progress bar;
+- shrinking sticky header;
+- animated mobile navigation;
+- collapsible program days, with secondary days collapsed by default on small screens;
+- button ripple feedback;
+- animated form status messages;
+- floating “back to top” control;
+- automatic support for `prefers-reduced-motion` accessibility settings.
+
+All interaction code is in `assets/js/site.js`, and the enhancement styles are appended to `assets/css/styles.css`. No third-party animation library is required.
