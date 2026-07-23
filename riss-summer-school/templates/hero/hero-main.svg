@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1100" viewBox="0 0 1400 1100" role="img" aria-label="Replace with the main event image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151b35"/><stop offset=".55" stop-color="#6d5dfc"/><stop offset="1" stop-color="#23c7b7"/></linearGradient>
+    <radialGradient id="r"><stop stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1400" height="1100" fill="url(#bg)"/>
+  <circle cx="980" cy="280" r="260" fill="url(#r)" opacity=".28"/>
+  <circle cx="380" cy="740" r="330" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="4"/>
+  <circle cx="380" cy="740" r="210" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="4"/>
+  <path d="M0 840C280 680 420 1010 710 800s420-60 690-220v520H0Z" fill="#0b1020" fill-opacity=".35"/>
+  <text x="90" y="130" fill="#fff" font-family="Arial" font-size="40" font-weight="700">MAIN EVENT IMAGE</text>
+  <text x="90" y="185" fill="#fff" fill-opacity=".72" font-family="Arial" font-size="26">Replace this file in templates/hero</text>
+</svg>

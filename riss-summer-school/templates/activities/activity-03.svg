@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="750" viewBox="0 0 1000 750" role="img" aria-label="SOCIAL DINNER placeholder">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffcabd"/><stop offset="1" stop-color="#6d5dfc"/></linearGradient></defs>
+  <rect width="1000" height="750" fill="url(#g)"/>
+  <path d="M0 560c140-100 260-20 390-90s245-80 610 40v240H0Z" fill="#0b1020" fill-opacity=".38"/>
+  <text x="60" y="90" fill="#fff" font-family="Arial" font-size="42" font-weight="700">SOCIAL DINNER</text>
+  <text x="60" y="140" fill="#fff" fill-opacity=".75" font-family="Arial" font-size="24">templates/activities</text>
+</svg>

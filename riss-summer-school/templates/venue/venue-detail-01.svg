@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="VENUE DETAIL 01 placeholder">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bfe9e3"/><stop offset="1" stop-color="#6d5dfc"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <circle cx="920" cy="180" r="90" fill="#fff" fill-opacity=".7"/>
+  <path d="M0 610 280 340l170 170 170-220 260 300 150-160 170 180v190H0Z" fill="#0b1020" fill-opacity=".45"/>
+  <text x="70" y="100" fill="#fff" font-family="Arial" font-size="46" font-weight="700">VENUE DETAIL 01</text>
+  <text x="70" y="155" fill="#fff" fill-opacity=".78" font-family="Arial" font-size="26">Replace in templates/venue</text>
+</svg>

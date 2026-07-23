@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Lecturer 04 photo placeholder">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edeafd"/><stop offset="1" stop-color="#c9f4ef"/></linearGradient></defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <circle cx="400" cy="345" r="150" fill="#0b1020" opacity=".18"/>
+  <path d="M170 900c18-235 132-360 230-360s214 125 230 360" fill="#0b1020" opacity=".18"/>
+  <text x="400" y="95" text-anchor="middle" fill="#0b1020" font-family="Arial" font-size="35" font-weight="700">PERSON 04</text>
+  <text x="400" y="955" text-anchor="middle" fill="#0b1020" fill-opacity=".6" font-family="Arial" font-size="24">templates/people/lecturer-04.svg</text>
+</svg>
