@@ -187,7 +187,8 @@ p { margin: 0 0 18px; color: var(--ink-soft); }
 .person-card img { aspect-ratio: 4/5; width: 100%; object-fit: cover; }
 .person-card .card-body { min-height: 220px; }
 .person-meta { font-weight: 750; color: var(--accent); margin-bottom: 12px; }
-.dark-section .person-card { color: var(--ink); }
+.dark-section .person-card,
+.dark-section .person-card h3 { color: var(--ink); }
 .dark-section .person-card p { color: var(--ink-soft); }
 .dark-section .person-card .person-meta { color: var(--accent); }
 .lecturer-feature {
