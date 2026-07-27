@@ -13,7 +13,7 @@ Why this is the best default:
 
 ## Suggested alternatives
 
-1. `https://riss2027.rise.com.br/` — useful if each edition must have an isolated website.
+1. `https://riss2026.rise.com.br/` — useful if each edition must have an isolated website.
 2. `https://rise.com.br/riss/` — simplest when subdomain configuration is unavailable.
 3. `https://riss-summerschool.org/` — independent domain, but requires registration, renewal, and separate governance.
 

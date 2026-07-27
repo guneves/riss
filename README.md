@@ -35,7 +35,6 @@ To replace an image without editing HTML, keep the same filename and aspect rati
 ## Content that must be confirmed
 
 - Official event title and edition year
-- Event dates
 - City, venue, and address
 - Scientific theme/subtitle
 - Lecturer names, roles, biographies, and links
