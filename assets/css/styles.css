@@ -200,6 +200,9 @@ p { margin: 0 0 18px; color: var(--ink-soft); }
   background: var(--paper-2);
   box-shadow: var(--shadow);
 }
+.lecturer-feature + .lecturer-feature {
+  margin-top: 40px;
+}
 .lecturer-portrait { min-height: 100%; background: var(--ink); }
 .lecturer-portrait img {
   width: 100%;
