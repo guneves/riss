@@ -213,6 +213,14 @@ p { margin: 0 0 18px; color: var(--ink-soft); }
 }
 .lecturer-content { padding: clamp(28px, 5vw, 58px); }
 .lecturer-content h2 { font-size: clamp(2.5rem, 5vw, 4.8rem); }
+.lecturer-content a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.lecturer-content a:hover {
+  text-decoration: none;
+}
 .talk-card {
   margin-top: 34px;
   padding: clamp(24px, 4vw, 38px);
@@ -231,6 +239,15 @@ p { margin: 0 0 18px; color: var(--ink-soft); }
 }
 .talk-card p { color: rgba(255,255,255,.74); }
 .talk-card p:last-child { margin-bottom: 0; }
+.talk-card a {
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  word-break: break-word;
+}
+.talk-card a:hover {
+  color: var(--white);
+}
 .lecturer-roster-heading { margin: 76px 0 32px; }
 
 .venue-gallery { display: grid; grid-template-columns: 1.4fr .8fr; grid-template-rows: 1fr 1fr; gap: 16px; }
