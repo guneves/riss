@@ -41,8 +41,36 @@
           <div class="hero-actions"><a class="button button-accent" href="register.html">I am interested</a><a class="button button-ghost" href="program.html">Explore the program</a></div>
         </div>
         <div class="hero-art">
-          <img src="templates/hero/hero-main.svg" alt="RiSS event atmosphere placeholder">
-          <div class="hero-card"><strong>Learn. Discuss. Connect.</strong><p>Replace the hero artwork with a high-resolution event or destination image.</p></div>
+          <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" aria-label="RiSS Quantum Software Engineering Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; background: linear-gradient(135deg, #0b1020, #141d38); box-shadow: 0 20px 40px rgba(0,0,0,0.4);">
+            <defs>
+              <linearGradient id="quantGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#00E5FF" />
+                <stop offset="100%" stop-color="#D500F9" />
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                <feMerge>
+                  <feMergeNode in="coloredBlur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+            <g transform="translate(400, 300)">
+              <!-- Qubit Orbits (Quantum) -->
+              <ellipse rx="220" ry="70" fill="none" stroke="url(#quantGrad)" stroke-width="2" opacity="0.6" transform="rotate(0)" />
+              <ellipse rx="220" ry="70" fill="none" stroke="url(#quantGrad)" stroke-width="2" opacity="0.6" transform="rotate(60)" />
+              <ellipse rx="220" ry="70" fill="none" stroke="url(#quantGrad)" stroke-width="2" opacity="0.6" transform="rotate(120)" />
+              <!-- Quantum States / Nodes -->
+              <circle cx="220" cy="0" r="8" fill="#00E5FF" filter="url(#glow)"/>
+              <circle cx="-110" cy="-190.5" r="8" fill="#D500F9" filter="url(#glow)"/>
+              <circle cx="-110" cy="190.5" r="8" fill="#00E5FF" filter="url(#glow)"/>
+              <!-- Inner Bloch Sphere -->
+              <circle r="100" fill="rgba(213, 0, 249, 0.05)" stroke="url(#quantGrad)" stroke-width="2" stroke-dasharray="10 8" />
+              <!-- Brackets (Software Engineering) -->
+              <text x="0" y="26" font-family="monospace" font-size="80" font-weight="bold" fill="url(#quantGrad)" text-anchor="middle" filter="url(#glow)">&lt;/&gt;</text>
+            </g>
+          </svg>
+          <div class="hero-card"><strong>Learn. Discuss. Connect.</strong><p>Join us in the historic and vibrant city of Salvador, Bahia.</p></div>
         </div>
       </div>
       <div class="stat-strip" aria-label="Event highlights">
@@ -66,7 +94,7 @@
       <div class="grid-4" style="margin-top:38px">
         <article class="person-card"><img src="templates/people/shaukat-ali.jpg" alt="Shaukat Ali speaking at an event"><div class="card-body"><span class="card-tag">Lecturer 01</span><h3>Shaukat Ali</h3><p>Chief Research Scientist and Research Professor, Simula Research Laboratory.</p></div></article>
         <article class="person-card"><img src="templates/people/elisabetta-di-nitto.jpg" alt="Elisabetta Di Nitto"><div class="card-body"><span class="card-tag">Lecturer 02</span><h3>Elisabetta Di Nitto</h3><p>Full Professor, Politecnico di Milano.</p></div></article>
-        <article class="person-card"><img src="templates/people/lecturer-03.svg" alt="Rui Maranhão"><div class="card-body"><span class="card-tag">Lecturer 03</span><h3>Rui Maranhão</h3><p>Full Professor, University of Porto.</p></div></article>
+        <article class="person-card"><img src="templates/people/rui-maranhao.jpeg" alt="Rui Maranhão"><div class="card-body"><span class="card-tag">Lecturer 03</span><h3>Rui Maranhão</h3><p>Full Professor, University of Porto.</p></div></article>
         <article class="person-card"><img src="templates/people/mariia-mykhailova.jpg" alt="Mariia Mykhailova"><div class="card-body"><span class="card-tag">Lecturer 04</span><h3>Mariia Mykhailova</h3><p>Principal Quantum Applications Software Developer, PsiQuantum.</p></div></article>
       </div>
       <div style="margin-top:30px"><a class="button button-light" href="lecturers.html">View all lecturers</a></div>
@@ -77,17 +105,40 @@
     <div class="container">
       <div class="grid-2"><div><p class="eyebrow">Programmed activities</p><h2>Space to learn and connect.</h2></div><p class="lead">The school combines academic sessions with social and cultural activities that encourage informal conversations and long-term collaboration.</p></div>
       <div class="grid-3" style="margin-top:38px">
-        <article class="card"><img src="templates/activities/activity-01.svg" alt="Networking activity placeholder"><div class="card-body"><span class="card-tag">Community</span><h3>Networking activity</h3><p>Describe an activity that brings participants and lecturers together.</p></div></article>
-        <article class="card"><img src="templates/activities/activity-02.svg" alt="Cultural activity placeholder"><div class="card-body"><span class="card-tag">Local experience</span><h3>Cultural visit</h3><p>Introduce the host city, local culture, or a nearby destination.</p></div></article>
-        <article class="card"><img src="templates/activities/activity-03.svg" alt="Social dinner placeholder"><div class="card-body"><span class="card-tag">Social program</span><h3>School dinner</h3><p>Create a relaxed moment for participants to exchange ideas.</p></div></article>
+        <article class="card">
+          <div class="card-body">
+            <span class="card-tag">Day 1 · 2 Dec</span>
+            <h3>Foundations &amp; Design</h3>
+            <p>Dive into the Foundations of Quantum Software Engineering and explore Requirements and Design with experts Shaukat Ali and Elisabetta Di Nitto[cite: 1].</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <span class="card-tag">Day 2 · 3 Dec</span>
+            <h3>Testing &amp; Implementation</h3>
+            <p>Focus on Quantum Software Testing in a probabilistic world and practical Programming and Implementation with Rui Maranhão and Mariia Mykhailova[cite: 1].</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <span class="card-tag">Day 3 · 4 Dec</span>
+            <h3>Panel &amp; Closing</h3>
+            <p>Join an interactive discussion with invited lecturers on the upcoming challenges in Quantum Software Engineering, followed by concluding remarks[cite: 1].</p>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
   <section class="section dark-section">
     <div class="container grid-2">
-      <div><p class="eyebrow">Venue</p><h2>A setting built for focus and exchange.</h2><p class="lead">RiSS 2026 will be hosted at the oceanfront Mercure Salvador Rio Vermelho in Salvador, Bahia, offering an ideal setting for focused learning, discussions, and networking.</p><a class="button button-light" href="venue.html">Explore the venue</a></div>
-      <img class="feature-image" src="templates/venue/venue-main.svg" alt="Mercure Salvador Rio Vermelho venue">
+      <div>
+        <p class="eyebrow">Venue</p>
+        <h2>A setting built for focus and exchange.</h2>
+        <p class="lead">RiSS 2026 will be hosted at the oceanfront Mercure Salvador Rio Vermelho in Salvador, Bahia. Located in the city's most vibrant neighborhood, it offers modern conference facilities and an ideal atmosphere for networking and learning.</p>
+        <a class="button button-light" href="venue.html">Explore the venue</a>
+      </div>
+      <img class="feature-image" style="object-fit: cover;" src="templates/venue/venue-main.jpg" alt="Ocean view from a hotel in Salvador, Bahia">
     </div>
   </section>
 
